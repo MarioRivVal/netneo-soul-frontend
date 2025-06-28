@@ -1,12 +1,12 @@
 import React from "react";
 import Nav from "../components/nav/Nav";
 
-function Home() {
+function Chat() {
   return (
     <>
       <Nav />
-      <h1>Bienvenido a Netneo Soul</h1>
+      <h1>Hablar con tu asistente emocional</h1>;
     </>
   );
 }
-export default Home;
+export default Chat;

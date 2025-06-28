@@ -1,0 +1,112 @@
+Documento de Requisitos del Proyecto: Netneo Soul
+
+1. Nombre del Proyecto:
+Netneo Soul - Asistente de Salud Emocional Potenciado por IA
+
+2. Objetivo General:
+Desarrollar una aplicación web moderna y accesible que permita a los usuarios registrar y visualizar sus estados emocionales, recibir recomendaciones inteligentes, y tener un seguimiento de su bienestar emocional. La app estará respaldada por una arquitectura cloud-native y funcionalidades de inteligencia artificial.
+
+3. Roles del Equipo:
+
+Diseñador/Desarrollador Frontend: Jonny
+
+Backend/API Developer: Jonny
+
+Arquitecto de Nube y DevOps: Jonny
+
+AI Integration Engineer: Jonny
+
+Product Owner: Jonny
+
+Asistencia/Guía Técnica: ChatGPT
+
+4. Tecnologías Base:
+
+Frontend: React.js + CSS puro
+
+Backend: AWS Lambda + API Gateway
+
+Base de Datos: DynamoDB (NoSQL)
+
+Autenticación (fase futura): Amazon Cognito
+
+DevOps: AWS Amplify para despliegue frontend
+
+Infraestructura Serverless: AWS Cloud (IAM, S3, Lambda, etc.)
+
+IA / NLP (futuro): Integración con LLM mediante API (OpenAI u otros)
+
+Arquitectura: Cloud-native, microservicios desacoplados, escalable
+
+5. Requisitos Funcionales:
+
+RF1. Registro de emociones con campos: tipo de emoción, descripción, fecha
+
+RF2. Almacenamiento persistente de emociones en DynamoDB
+
+RF3. Visualización de las emociones guardadas por el usuario
+
+RF4. (Futuro) Autenticación de usuario (registro y login)
+
+RF5. (Futuro) Recomendaciones personalizadas basadas en IA/LLM
+
+RF6. (Futuro) Analíticas emocionales simples: gráficos, frecuencia, tendencias
+
+6. Requisitos No Funcionales:
+
+RNF1. Aplicación responsive y accesible desde móvil y escritorio
+
+RNF2. Backend sin servidores (serverless) y escalable
+
+RNF3. Uso exclusivo de servicios en la nube (cloud-native)
+
+RNF4. Seguridad en el manejo de datos mediante roles IAM y buenas prácticas
+
+RNF5. Buen rendimiento en carga y respuesta de la app
+
+7. Fases de Implementación:
+
+Fase 1: Setup de entorno cloud (Lambda, API Gateway, DynamoDB, permisos IAM)
+
+Fase 2: Desarrollo de la función registerEmotion y pruebas desde Postman
+
+Fase 3: Creación y asociación del Layer con SDK y uuid
+
+Fase 4: Conexión del frontend React a la API de registro de emociones
+
+Fase 5: Implementar listados y visualización de emociones
+
+Fase 6: Agregar autenticación con Amazon Cognito
+
+Fase 7: Integración de IA para sugerencias emocionales (LLM + RAG)
+
+Fase 8: Refinamiento UI/UX + accesibilidad + SEO
+
+8. Consideraciones Futuras:
+
+Modo oscuro/claro
+
+Notificaciones personalizadas
+
+Exportar datos emocionales
+
+Multiidioma (Español, Italiano, Inglés)
+
+9. Licenciamiento y Publicación:
+
+Proyecto personal y profesional bajo Netneo.es
+
+Repositorio privado (GitHub)
+
+Deployment vía Amplify con dominio personalizado
+
+10. KPI de Éxito:
+
+App funcional y estable en la nube
+
+Arquitectura profesional como proyecto real
+
+Documentación técnica completa
+
+Posibilidad futura de monetización / spin-off como SaaS
+
