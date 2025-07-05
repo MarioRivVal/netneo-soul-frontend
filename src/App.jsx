@@ -6,6 +6,7 @@ import Journal from "./pages/Journal";
 import Chat from "./pages/Chat";
 import History from "./pages/History";
 import EmotionalCheck from "./pages/EmotionalCheck";
+import EmotionalSummary from "./pages/EmotionalSummary";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Route path="/chat" element={<Chat />} />
         <Route path="/history" element={<History />} />
         <Route path="/emotional-check" element={<EmotionalCheck />} />
-        {/* Ruta por defecto para manejar 404 */}
+        <Route path="/emotional-summary" element={<EmotionalSummary />} />
+        <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
     </BrowserRouter>
   );

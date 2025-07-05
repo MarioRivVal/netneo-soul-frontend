@@ -1,0 +1,27 @@
+/* src/styles/pages/welcome.css */
+
+.welcome-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.welcome-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.welcome-container p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.welcome-container input {
+  padding: 0.8rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
