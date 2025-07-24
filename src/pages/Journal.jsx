@@ -1,6 +1,6 @@
 import React from "react";
-import Nav from "../components/nav/Nav";
-import EmotionForm from "../components/emotionForm/EmotionForm";
+import Nav from "../components/Nav";
+import EmotionForm from "../components/EmotionForm";
 
 function Journal() {
   return (

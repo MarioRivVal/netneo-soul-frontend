@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import Nav from "../components/nav/Nav";
-import EmotionList from "../components/emotionList/EmotionList";
+import Nav from "../components/Nav";
+import EmotionList from "../components/EmotionList";
 
 function History() {
   const [emotions, setEmotions] = useState([]);

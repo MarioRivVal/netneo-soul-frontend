@@ -1,24 +1,22 @@
-/* src/styles/pages/emotionalCheck.css */
-
-.check-container {
+.container {
   max-width: 500px;
   margin: 0 auto;
   padding: 2rem 1rem;
   text-align: center;
 }
 
-.check-container h2 {
+.titleH2 {
   font-size: 1.4rem;
   margin-bottom: 1.5rem;
 }
 
-.check-container h3 {
+.titleH3 {
   font-size: 1rem;
   color: #6b7280;
   margin-bottom: 1rem;
 }
 
-.check-container button {
+.btn {
   display: block;
   width: 100%;
   margin: 0.5rem 0;
@@ -31,7 +29,7 @@
   transition: all 0.2s ease;
 }
 
-.check-container button:hover {
+.btn:hover {
   background-color: var(--color-primary);
   color: white;
   border-color: var(--color-primary);
